@@ -5,10 +5,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Aplicação desenvolvida no curso Começando com Angular do @Balta.io, onde são abordados tópicos iniciais para desenvolvimento com Angular. 
 - Modulos 
 - Componentes
-   Comportamento (.ts)
-   Visualização  (.html)
-   Folhas de Estilos (.css)
-   Testes  (.spec.ts)
+   - Comportamento (.ts)
+   - Visualização  (.html)
+   - Folhas de Estilos (.css)
+   - Testes  (.spec.ts)
 - Tipagem do Typescript
 - Sintaxe, variáveis e tipos 
 - Uso do *ngIf para condicionar comportamento da tela.
