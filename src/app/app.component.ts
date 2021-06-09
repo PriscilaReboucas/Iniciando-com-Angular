@@ -9,6 +9,7 @@ import { Todo } from 'src/models/todo.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public mode = 'list';
   public todos: Todo[] = [];
   public title: String = 'Minhas tarefas';
   public form: FormGroup;
@@ -64,6 +65,7 @@ export class AppComponent {
     //converte JSON em string
     const data = JSON.stringify(this.todos);
     localStorage.setItem('todos', data);
+    this.mode = 'list';
   }
 
   load() {
@@ -75,5 +77,8 @@ export class AppComponent {
     } else {
       this.todos = [];
     }
+  }
+  changeMode(mode: string) {
+    this.mode = mode;
   }
 }
