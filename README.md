@@ -14,8 +14,11 @@ Aplicação desenvolvida no curso Começando com Angular do @Balta.io, onde são
 - Uso do *ngIf para condicionar comportamento da tela.
 - Boas práticas
 - Estilização
-- Uso do localStorage
-- Build
+- Models, formulários, validações, operações com listas
+- Two-way binding
+- LocalStorage
+- Build 
+
  
 
 ## Development server
